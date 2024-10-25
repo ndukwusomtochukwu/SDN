@@ -147,6 +147,18 @@ const Header = ({ backgroundColor = "bg-slate-800" }) => {
               >
                 Security Test
               </Link>
+              <Link
+                to="/passgen"
+                className="w-full text-white  bg-gray-900 block rounded-lg px-2 py-1 hover:scale-105 transition-all"
+              >
+                Password Gen
+              </Link>
+              <Link
+                to="/passcheck"
+                className="w-full text-white  bg-gray-900 block rounded-lg px-2 py-1 hover:scale-105 transition-all"
+              >
+                Password Checker
+              </Link>
             </span>
           </div>
 

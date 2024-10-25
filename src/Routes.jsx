@@ -6,6 +6,8 @@ import Quiz from "./components/Quiz.jsx";
 import ContactPage from "./components/ContactPage.jsx";
 import LearningPath from "./components/LearningPath.jsx";
 import CourseContent from "./components/CourseContent.jsx";
+import PasswordGenerator from "./components/PasswordGenerator.jsx";
+import PasswordStrengthChecker from "./components/PassStrChecker.jsx";
 
 const Routes = createBrowserRouter([
   {
@@ -21,6 +23,16 @@ const Routes = createBrowserRouter([
   {
     path: "/quiz",
     element: <Quiz />,
+    errorElement: <Err404 />,
+  },
+  {
+    path: "/passgen",
+    element: <PasswordGenerator />,
+    errorElement: <Err404 />,
+  },
+  {
+    path: "/passcheck",
+    element: <PasswordStrengthChecker />,
     errorElement: <Err404 />,
   },
   {

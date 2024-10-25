@@ -44,6 +44,8 @@ function MenuForSm({ menu, setMenu, menuToggleRef }) {
         >
           <span className="p-4 mr-2  bg-blue-400 dark:bg-slate-600 text-sm flex flex-col gap-1">
             <Link to="/quiz">Quiz</Link>
+            <Link to="/passgen">Password Generator</Link>
+            <Link to="/passcheck">Password Checker</Link>
           </span>
         </div>
         <Link to="/feedback">Feedback</Link>
